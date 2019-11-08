@@ -4,9 +4,28 @@
   <title>Socially Responsible Investment Portfolio</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"
+      integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o"
+      crossorigin="anonymous"
+    ></script>
+  
   <style>
 
 
@@ -47,6 +66,177 @@
   </style>
 </head>
 <body>
+    <nav
+      class="navbar navbar-expand-lg navbar-dark"
+      style="background-color: #2d2d30;"
+    >
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="team.html">LEADERSHIP</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">PORTFOLIO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">CONTACT</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- TradingView Widget BEGIN -->
+    <div class="tradingview-widget-container">
+      <div class="tradingview-widget-container__widget"></div>
+      <div class="tradingview-widget-copyright">
+        <a href="https://www.tradingview.com" rel="noopener" target="_blank"
+          ><span class="blue-text">Ticker Tape</span></a
+        >
+        by TradingView
+      </div>
+      <script
+        type="text/javascript"
+        src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js"
+        async
+      >
+          {
+          "symbols": [
+            {
+              "description": "",
+              "proName": "NYSE:APTV"
+            },
+            {
+              "description": "",
+              "proName": "NASDAQ:EBAY"
+            },
+            {
+              "description": "",
+              "proName": "NASDAQ:SBUX"
+            },
+            {
+              "description": "",
+              "proName": "NYSE:CLX"
+            },
+            {
+              "description": "",
+              "proName": "NASDAQ:COST"
+            },
+            {
+              "description": "",
+              "proName": "NYSE:ACN"
+            },
+            {
+              "description": "",
+              "proName": "NYSE:DIS"
+            },
+            {
+              "description": "",
+              "proName": "NASDAQ:TTWO"
+            },
+            {
+              "description": "",
+              "proName": "NASDAQ:ADBE"
+            },
+            {
+              "description": "",
+              "proName": "NASDAQ:GOOG"
+            },
+            {
+              "description": "",
+              "proName": "NYSE:MA"
+            },
+            {
+              "description": "",
+              "proName": "NASDAQ:MSFT"
+            },
+            {
+              "description": "",
+              "proName": "NYSE:CAT"
+            },
+            {
+              "description": "",
+              "proName": "NYSE:FDX"
+            },
+            {
+              "description": "",
+              "proName": "NYSE:HON"
+            },
+            {
+              "description": "",
+              "proName": "NYSE:DOW"
+            },
+            {
+              "description": "",
+              "proName": "NYSE:IFF"
+            },
+            {
+              "description": "",
+              "proName": "NYSE:SHW"
+            },
+            {
+              "description": "",
+              "proName": "NYSE:CVX"
+            },
+            {
+              "description": "",
+              "proName": "NYSE:MPC"
+            },
+            {
+              "description": "",
+              "proName": "NYSE:AWK"
+            },
+            {
+              "description": "",
+              "proName": "NYSE:DTE"
+            },
+            {
+              "description": "",
+              "proName": "NYSE:NEE"
+            },
+            {
+              "description": "",
+              "proName": "NYSE:ANTM"
+            },
+            {
+              "description": "",
+              "proName": "NYSE:BDX"
+            },
+            {
+              "description": "",
+              "proName": "NYSE:UNH"
+            },
+            {
+              "description": "",
+              "proName": "NYSE:JPM"
+            },
+            {
+              "description": "",
+              "proName": "NASDAQ:SIVB"
+            }
+          ],
+          "colorTheme": "light",
+          "isTransparent": false,
+          "displayMode": "adaptive",
+          "locale": "en"
+        }
+      </script>
+    </div>
+    <!-- TradingView Widget END -->
 
   <div class="jumbotron text-center" id="header">
   <h1>Socially Responsible Investment Portfolio</h1>
@@ -92,10 +282,11 @@
       </div>
       </div>
     </div>
-      <div class="container-fluid text-center">
-        <div class="col-sm-3">
-        </div>
-        <div class="col-sm-6 text-center">
+      <div class="row">
+      <div class="col-sm-3">
+      </div>
+      <br>
+        <div class="col-sm-6 text-center" >
           <h2>What We Strive to Do</h2></br>
 
           <p>To provide an accurate simulation of a real-world environment, specifically that of an asset management firm,
@@ -108,7 +299,8 @@
             popular financial benchmarks, as achieved through statistically provable performance and members analysis and reports.
           </p>
           </div>
-          </div>
+       </div>
+
 
           <div class="container-fluid text-center bg-grey">
               <h2>Investment Process</h2>
@@ -155,27 +347,8 @@
 
 
 
-  <nav class="navbar navbar-default navbar-fixed-top">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="index.html">HOME</a></li>
-        <li><a href="team.html">LEADERSHIP</a></li>
-        <li><a href="portfolio.html">PORTFOLIO</a></li>
-        <li><a href="contact.html">CONTACT</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
 
-<script>
+<!-- <script>
     $(document).ready(function(){
       $(window).scroll(function() {
         if ($(document).scrollTop() > 600) {
@@ -187,7 +360,7 @@
         }
       });
     });
-</script>
+</script> -->
 
 
 
